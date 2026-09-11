@@ -1,3 +1,8 @@
+<img width="1920" height="50" alt="system-pills-screenshot" src="https://github.com/user-attachments/assets/42f5a9a9-bd8d-4277-8d68-04ac58544da5" />
+
+<img width="150" height="29" alt="screenshot-2026-09-11_04-46-13" src="https://github.com/user-attachments/assets/eed1d830-ef20-4f30-9944-ec1c556faad0" />
+
+
 # System Pills (`bit-dev.system-pills`)
 
 A lightweight, modern Omarchy shell bar widget and background service displaying CPU, memory, and GPU usage pills.
