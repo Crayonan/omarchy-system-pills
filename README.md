@@ -30,6 +30,15 @@ omarchy plugin add https://github.com/Crayonan/omarchy-system-pills.git
 omarchy plugin enable bit-dev.system-pills --section left
 ```
 
+## Companion Plugins
+
+System Pills is part of the Omarchy Pill suite and pairs seamlessly with:
+
+| Plugin | Description | Install Command |
+|---|---|---|
+| **[Pill Bar](https://github.com/Crayonan/omarchy-bar)** (`bit-dev.bar`) | Floating island pill-style status bar for Omarchy | `omarchy plugin add https://github.com/Crayonan/omarchy-bar.git --enable` |
+| **[AI Usage Pills](https://github.com/Crayonan/omarchy-ai-usage-pills)** (`bit-dev.ai-usage-pills`) | Live quota usage for Anthropic, OpenAI, Gemini & OpenRouter | `omarchy plugin add https://github.com/Crayonan/omarchy-ai-usage-pills.git --enable` |
+
 ## Removal
 
 To disable the widget from the status bar:
