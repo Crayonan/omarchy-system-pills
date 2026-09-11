@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "bit-dev.system-pills",
+  "name": "System Pills",
+  "version": "1.0.0",
+  "author": "bit-dev",
+  "license": "MIT",
+  "description": "CPU, memory and GPU usage pills.",
+  "kinds": ["service", "bar-widget"],
+  "activation": "on-demand",
+  "persistent": true,
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "System Pills",
+    "description": "CPU, memory and GPU usage at a glance.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "left",
+    "defaults": {
+      "refreshIntervalSec": 3,
+      "cpuAccent": "#F59E0B",
+      "memoryAccent": "#22C55E",
+      "gpuAccent": "#8B5CF6",
+      "pillOpacity": 0.24
+    },
+    "schema": [
+      {"key":"refreshIntervalSec","type":"integer","label":"Refresh interval (seconds)","min":1,"max":60,"step":1,"defaultValue":3},
+      {"key":"cpuAccent","type":"string","label":"CPU accent","defaultValue":"#F59E0B"},
+      {"key":"memoryAccent","type":"string","label":"Memory accent","defaultValue":"#22C55E"},
+      {"key":"gpuAccent","type":"string","label":"GPU accent","defaultValue":"#8B5CF6"},
+      {"key":"pillOpacity","type":"number","label":"Pill tint opacity","min":0.08,"max":0.85,"step":0.01,"defaultValue":0.24}
+    ]
+  }
+}
